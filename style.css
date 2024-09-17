@@ -1,0 +1,15 @@
+input{
+    display: block;
+    margin-bottom: 10px;
+    border: solid;
+    width: 20%;
+}
+form{
+    border: dotted;
+    background-color: rgb(107, 237, 176)
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}

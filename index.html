@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1> Forms </h1>
+
+<form action="index.html">
+<label for="inputName"> Name </label>
+<input id="inputName" type="text" name="name">
+
+<label for="inputEmail">Email</label>
+<input id="inputEmail" type="email" name="email" >
+
+<label for="inputPassword">Password</label>
+<input id="inputPassword" type="password" name="password" >
+
+<label for="inputPhoneNumber">Phone Number</label>
+<input id="inputPhoneNumber" type="text" name="number" >
+
+<select id="inputGender">
+<option value="Male"> Male </option>
+<option value="Female"> Female </option>
+</select>
+
+<button type="button" onclick="formInputs()">Submit</button>
+
+
+</form>
+
+<table id="formTable"></table>
+
+<script src="script.js"></script>
+</body>
+</html>
